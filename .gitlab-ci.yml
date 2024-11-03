@@ -4,4 +4,4 @@ stages:
 print_hostname:
   stage: print
   script: |
-    echo "The hostname is: $(nslookup $(hostname)) -> $CI_SERVER_HOST"
+    echo "XX The hostname is: $(nslookup $(hostname)) -> $CI_SERVER_HOST"

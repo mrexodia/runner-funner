@@ -17,5 +17,6 @@ jobs:
         run: |
           ls ${{ gitea.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: echo lahblab
       - run: |
           echo "The hostname is: $(nslookup $(hostname))"
